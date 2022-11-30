@@ -12,6 +12,6 @@ app.use("/",mainRoutes);
 app.listen(PORT,(err)=>{
     if(err) {throw err}
     else {
-        console.log(`Server Works on ${PORT}`);
+        console.log(`Server Works on ${PORT} perfectly`);
     }
 })
